@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.bg-image{
+    background-image: url(img/img-fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    height: 100vh;
+    background-position: 50%;
+}
+
+.tituloPrincipal{
+    color: rgb(226, 226, 226);
+    padding: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+    
+}
+nav {
+    background-color: rgba(78, 76, 75, 0.276);
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+  
+
+#navbarSupportedContent ul li a {
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+}
+.tijera_logo{
+    width: 200px;
+    padding: 20px;
+}
+
+.container_fluid{
+    background-image: url(img/imagen-fondo-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 200px; */
+    height: 60%;
+    background-position: 50%;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+h4{
+    text-align: center;
+}
+.tipos{
+    display: flex;
+    padding: 20px;
+}
+.tipo_uno{
+    padding: 10px;
+}
+.tipo_dos{
+    padding: 10px;
+}
+.tipo_tres{
+    padding: 10px;
+}
+.css-button-shadow-border-sliding--sand {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #adb5bd;
+   z-index: 1;
+  }
+  .css-button-shadow-border-sliding--sand:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .css-button-shadow-border-sliding--sand:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #ced4da;
+    right: 0;
+  }
+  .css-button-shadow-border-sliding--sand:active {
+    top: 2px;
+  }
+.col-md-3-button{
+    text-align: center;
+    padding: 15px;
+}
+
+.reserva{
+    padding: 10px;
+}
+.parrafo_reserva{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.precios{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.precioUno{
+    border-bottom: 1px solid gray;
+}
+.precioDos{
+    border-bottom: 1px solid gray;
+}
+.parrafo_precios{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .footer{
+      border-top: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      overflow: hidden;
+  }
+ .logos_footer{
+     display: flex;
+     justify-content: center;
+     overflow: hidden;
+     padding: 10px;
+ }
+  .logo_footer{
+      width: 30px;
+      overflow: hidden;
+      
+  }
